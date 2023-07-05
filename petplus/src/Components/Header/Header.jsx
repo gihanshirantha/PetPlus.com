@@ -6,22 +6,22 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Logo from '../../assets/image/1.png'
 import NavLink from 'react-bootstrap/esm/NavLink';
-
+const nav_link=[
+  {
+    path:'#', display:'Home'
+  },
+  {
+    path:'#', display:'About'
+  },
+  {
+    path:'#', display:'Services'
+  },
+  {
+    path:'#',display:'Contsct'
+  }
+]
 const Header = () => {
-    const nav_link=[
-        {
-          path:'#', display:'Home'
-        },
-        {
-          path:'#', display:'About'
-        },
-        {
-          path:'#', display:'Services'
-        },
-        {
-          path:'#',display:'Contsct'
-        }
-      ]
+    
       const headerRef=useRef(null)
 
       const stickyHeaderFunc=()=>{
@@ -45,8 +45,8 @@ const Header = () => {
       })
       
   return (
-    <div>
-       <Navbar  data-bs-theme="light"className='nav_Bar d-flex  gap-5 ' ref={headerRef}>
+    <div ref={headerRef}>
+       <Navbar  data-bs-theme="light"className='nav_Bar d-flex  gap-5 ' >
         <Container>
           <Navbar.Brand href="#home">
             <img src={Logo} alt="" width={170} />
