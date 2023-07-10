@@ -94,14 +94,10 @@
 }
 
 .about_wording {
-  margin-top: 7rem;
+  margin-top: 4rem;
   padding: 3rem;
 }
-.aw_hp {
-  font-size: 1.3rem;
-  font-weight: 600;
-  color: var(--secondary-color);
-}
+
 
 .cat_icon i {
   color: var(--primary-color);
@@ -129,4 +125,12 @@
 
 .feeding_dog {
   margin-top: 2rem;
+}
+
+.about_wording button{
+  padding: 1rem 2.5rem;
+  font-size: 1.3rem;
+  font-weight: 700;
+  background: var(--primary-color);
+  border: none;
 }

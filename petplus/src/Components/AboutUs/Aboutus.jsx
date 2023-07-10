@@ -2,6 +2,7 @@ import React from "react";
 import "./aboutus.css";
 import { Container, Row, Col, Button } from "react-bootstrap";
 import AboutImg from "../../assets/image/About-img.png";
+import Subtitle from "../SubTitle/Subtitle";
 
 const Aboutus = () => {
   return (
@@ -31,7 +32,7 @@ const Aboutus = () => {
           </Col>
           <Col lg="6">
             <div className="about_wording">
-              <p className="aw_hp">About Us</p>
+                <Subtitle title={'About '}/>
               <h3>Lear About our best pet care centers</h3>
               <p>
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic,
@@ -63,6 +64,7 @@ const Aboutus = () => {
                   </p>
                 </div>
               </div>
+              <Button>Discover More</Button>
             </div>
           </Col>
         </Row>

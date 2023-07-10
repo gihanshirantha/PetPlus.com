@@ -1,0 +1,11 @@
+.aw_hp {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: var(--secondary-color);
+  }
+
+  i{
+    color: var(--secondary-color);
+    margin-top: .5rem;
+    margin-right: .5rem;
+  }
