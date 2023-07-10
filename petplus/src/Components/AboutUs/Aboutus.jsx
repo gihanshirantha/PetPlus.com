@@ -21,11 +21,38 @@ const Aboutus = () => {
                     </div>
                     <div className="Clients">
                         <h3>500+</h3>
-                        <p>Years Experience</p>
+                        <p>Happy Clients</p>
+                    </div>
+                    <div className="Experts">
+                        <h3>45+</h3>
+                        <p>Best Exparts</p>
                     </div>
                     </div>
                 </Col>
-                <Col lg='6'></Col>
+                <Col lg='6'>
+                    <div className="about_wording">
+                        <p>About Us</p>
+                        <h3>Lear About our best pet care centers</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic, officia et. Assumenda tempore, hic numquam ea dolores cum facilis eligendi suscipit iure rerum blanditiis, odit aspernatur consequatur porro omnis odio.</p>
+                        <div className="feeding_cat d-flex">
+                            <i class="fa-solid fa-cat"></i>
+                            <div className="cat_wording">
+                                <h4>Feeding a cat to be healthy</h4>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum aliquid sequi sit suscipit. Assumenda </p>
+
+                            </div>
+                            
+                        </div>
+                        <div className="feeding_dog d-flex">
+                            <i class="fa-solid fa-dog"></i>
+                            <div className="cat_wording">
+                                <h4>Feeding a cat to be healthy</h4>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum aliquid sequi sit suscipit. Assumenda </p>
+                                
+                            </div>
+                            </div>
+                    </div>
+                </Col>
 
             </Row>
         </Container>

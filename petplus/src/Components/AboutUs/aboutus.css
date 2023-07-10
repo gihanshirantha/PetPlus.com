@@ -1,5 +1,5 @@
 .about_design{
-    margin-top: 4rem;
+    margin-top: 6rem;
 }
 
 .about_img img{
@@ -41,6 +41,22 @@
     left: -1rem;
     bottom: 32rem;
 }
+.Experts{
+    border: 1px solid black;
+    width: 14rem;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 1rem;
+    background: rgba(255, 255, 255, 0.41);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.11);
+    position: relative;
+    left: 1rem;
+    bottom: 18rem;
+}
 .dot {
     height: 355px;
     width: 355px;
@@ -65,4 +81,20 @@
     z-index: -10;
     bottom: -34rem;
     left: 35rem;
+  }
+
+  .about_design h3{
+    color: var(--secondary-color);
+    font-weight: 700;
+    font-size: 2rem;
+  }
+  .about_design p{
+    font-weight: 500;
+    font-size: 1.3rem;
+  }
+
+  .about_wording{
+    margin-top: 6rem;
+    padding: 3rem;
+    
   }
