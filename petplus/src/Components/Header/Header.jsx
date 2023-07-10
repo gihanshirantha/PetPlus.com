@@ -55,7 +55,7 @@ const Header = () => {
             {nav_link.map((item,index)=>(<NavLink key={index} to={item.path}
             className={navClass=>navClass.isActive?"active_link":""}>{item.display}</NavLink>))}
           </Nav>
-          <Button className='btn contact_btn'>Contact Us</Button>
+          <Button className='btn contactus_btn'>Contact Us</Button>
         </Container>
       </Navbar>
     </div>
