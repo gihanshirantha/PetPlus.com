@@ -1,100 +1,132 @@
-.about_design{
-    margin-top: 6rem;
+.about_design {
+  margin-top: 6rem;
 }
 
-.about_img img{
-    width: 20rem;
-    border-radius: 3rem;
-    margin-top: 3rem;
-    margin-left: 9rem;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.6);
+.about_img img {
+  width: 20rem;
+  border-radius: 3rem;
+  margin-top: 3rem;
+  margin-left: 9rem;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.6);
 }
-.experience{
-    border: 1px solid black;
-    width: 14rem;
-    padding: 1rem;
-    text-align: center;
-    border-radius: 1rem;
-    background: rgba(255, 255, 255, 0.41);
-    border-radius: 16px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
-    backdrop-filter: blur(20px);
-    -webkit-backdrop-filter: blur(20px);
-    border: 1px solid rgba(255, 255, 255, 0.11);
-    position: relative;
-    left: 24rem;
-    bottom: 12rem;
+.experience {
+  border: 1px solid black;
+  width: 14rem;
+  padding: 1rem;
+  text-align: center;
+  border-radius: 1rem;
+  background: rgba(255, 255, 255, 0.41);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.11);
+  position: relative;
+  left: 24rem;
+  bottom: 12rem;
 }
-.Clients{
-    border: 1px solid black;
-    width: 14rem;
-    padding: 1rem;
-    text-align: center;
-    border-radius: 1rem;
-    background: rgba(255, 255, 255, 0.41);
-    border-radius: 16px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
-    backdrop-filter: blur(20px);
-    -webkit-backdrop-filter: blur(20px);
-    border: 1px solid rgba(255, 255, 255, 0.11);
-    position: relative;
-    left: -1rem;
-    bottom: 32rem;
+.Clients {
+  border: 1px solid black;
+  width: 14rem;
+  padding: 1rem;
+  text-align: center;
+  border-radius: 1rem;
+  background: rgba(255, 255, 255, 0.41);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.11);
+  position: relative;
+  left: -1rem;
+  bottom: 32rem;
 }
-.Experts{
-    border: 1px solid black;
-    width: 14rem;
-    padding: 1rem;
-    text-align: center;
-    border-radius: 1rem;
-    background: rgba(255, 255, 255, 0.41);
-    border-radius: 16px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
-    backdrop-filter: blur(20px);
-    -webkit-backdrop-filter: blur(20px);
-    border: 1px solid rgba(255, 255, 255, 0.11);
-    position: relative;
-    left: 1rem;
-    bottom: 18rem;
+.Experts {
+  border: 1px solid black;
+  width: 14rem;
+  padding: 1rem;
+  text-align: center;
+  border-radius: 1rem;
+  background: rgba(255, 255, 255, 0.41);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.11);
+  position: relative;
+  left: 1rem;
+  bottom: 18rem;
 }
 .dot {
-    height: 355px;
-    width: 355px;
-    background: white;
-    border: 3rem solid var(--secondary-color);
-    border-radius: 50%;
-    display: inline-block;
-    position:absolute;
-    z-index: -10;
-    bottom: -24rem;
-    left: 15rem;
-  }
+  height: 355px;
+  width: 355px;
+  background: white;
+  border: 3rem solid var(--secondary-color);
+  border-radius: 50%;
+  display: inline-block;
+  position: absolute;
+  z-index: -10;
+  bottom: -24rem;
+  left: 15rem;
+}
 
-  .dot2 {
-    height: 255px;
-    width: 255px;
-    background: white;
-    border: 3rem solid var(--primary-color);
-    border-radius: 50%;
-    display: inline-block;
-    position:absolute;
-    z-index: -10;
-    bottom: -34rem;
-    left: 35rem;
-  }
+.dot2 {
+  height: 255px;
+  width: 255px;
+  background: white;
+  border: 3rem solid var(--primary-color);
+  border-radius: 50%;
+  display: inline-block;
+  position: absolute;
+  z-index: -10;
+  bottom: -34rem;
+  left: 35rem;
+}
 
-  .about_design h3{
-    color: var(--secondary-color);
-    font-weight: 700;
-    font-size: 2rem;
-  }
-  .about_design p{
-    font-weight: 500;
-    font-size: 1.3rem;
-  }
+.about_design h3 {
+  color: var(--secondary-color);
+  font-weight: 700;
+  font-size: 2rem;
+}
+.about_design p {
+  font-weight: 500;
+  font-size: 1.3rem;
+}
 
-  .about_wording{
-    margin-top: 6rem;
-    padding: 3rem;
-    
-  }
+.about_wording {
+  margin-top: 7rem;
+  padding: 3rem;
+}
+.aw_hp {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: var(--secondary-color);
+}
+
+.cat_icon i {
+  color: var(--primary-color);
+  margin-right: 2rem;
+  margin-top: 0.8rem;
+  padding: 1rem;
+
+  border-radius: 3rem;
+  font-size: 2rem;
+  box-shadow: 0 0px 20px rgba(0, 0, 0, 0.3);
+}
+.feeding_cat {
+  margin-top: 4rem;
+}
+
+.feeding_cat h4 {
+  font-weight: 700;
+  font-size: 1.7rem;
+}
+
+.feeding_dog h4 {
+  font-weight: 700;
+  font-size: 1.7rem;
+}
+
+.feeding_dog {
+  margin-top: 2rem;
+}
