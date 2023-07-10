@@ -11,28 +11,31 @@ const Aboutus = () => {
         <Row>
           <Col lg="6">
             <div className="about_design">
-              <span class="dot"></span>
-              <span class="dot2"></span>
-              <div className="about_img">
-                <img src={AboutImg} alt="" />
-              </div>
-              <div className="experience">
-                <h3>15+</h3>
-                <p>Years Experience</p>
-              </div>
-              <div className="Clients">
-                <h3>500+</h3>
-                <p>Happy Clients</p>
-              </div>
-              <div className="Experts">
-                <h3>45+</h3>
-                <p>Best Exparts</p>
-              </div>
+              <span class="dot">
+                
+                  <div className="about_img">
+                    <img src={AboutImg} alt="" />
+                  </div>
+                  <div className="experience">
+                    <h3>15+</h3>
+                    <p>Years Experience</p>
+                  </div>
+                  <div className="Clients">
+                    <h3>500+</h3>
+                    <p>Happy Clients</p>
+                  </div>
+                  <div className="Experts">
+                    <h3>45+</h3>
+                    <p>Best Exparts</p>
+                  </div>
+                  <span class="dot2">
+                </span>
+              </span>
             </div>
           </Col>
           <Col lg="6">
             <div className="about_wording">
-                <Subtitle title={'About '}/>
+              <Subtitle title={"About "} />
               <h3>Lear About our best pet care centers</h3>
               <p>
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic,

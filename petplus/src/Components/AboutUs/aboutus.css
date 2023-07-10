@@ -1,12 +1,13 @@
 .about_design {
   margin-top: 6rem;
+  height: 95vh;
 }
 
 .about_img img {
   width: 20rem;
   border-radius: 3rem;
   margin-top: 3rem;
-  margin-left: 9rem;
+  margin-left: 3rem;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.6);
 }
 .experience {
@@ -22,7 +23,7 @@
   -webkit-backdrop-filter: blur(20px);
   border: 1px solid rgba(255, 255, 255, 0.11);
   position: relative;
-  left: 24rem;
+  left: 17rem;
   bottom: 12rem;
 }
 .Clients {
@@ -38,7 +39,7 @@
   -webkit-backdrop-filter: blur(20px);
   border: 1px solid rgba(255, 255, 255, 0.11);
   position: relative;
-  left: -1rem;
+  left: -8rem;
   bottom: 32rem;
 }
 .Experts {
@@ -54,7 +55,7 @@
   -webkit-backdrop-filter: blur(20px);
   border: 1px solid rgba(255, 255, 255, 0.11);
   position: relative;
-  left: 1rem;
+  left: -5rem;
   bottom: 18rem;
 }
 .dot {
@@ -64,10 +65,9 @@
   border: 3rem solid var(--secondary-color);
   border-radius: 50%;
   display: inline-block;
-  position: absolute;
+  position: relative;
   z-index: -10;
-  bottom: -24rem;
-  left: 15rem;
+
 }
 
 .dot2 {
@@ -77,10 +77,10 @@
   border: 3rem solid var(--primary-color);
   border-radius: 50%;
   display: inline-block;
-  position: absolute;
+  position: relative;
   z-index: -10;
-  bottom: -34rem;
-  left: 35rem;
+  bottom: 42rem;
+  left: 16rem;
 }
 
 .about_design h3 {
