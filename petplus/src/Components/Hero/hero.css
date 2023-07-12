@@ -1,17 +1,20 @@
 .hero{
-    height: 90vh;
+    max-height: 150vh;
+    min-height: 90vh;
     background-image: url('../../assets/image/bc-img.png');
     background-repeat: no-repeat;
     background-size: cover;
 }
 .hero_title{
-    margin-top:5rem;
+    margin-top:7rem;
 }
 
 .hero_title h1{
     color: white;
-    font-size: 5rem;
+    font-size: clamp(5rem,5vw,2rem);
+    
     font-weight: 700;
+    text-align: center;
 }
 
 .hero_title h1 span{
@@ -19,16 +22,20 @@
 }
 
 .hero_title p{
+    max-width: 54rem;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
     color: gray;
     margin-top: 2rem;
     line-height: 2.5rem;
     font-size: 1.2rem;
 }
 
-.hero_buttons button{
+.hero_buttons{
     margin-top: 2rem;
-    margin-left: 3rem;
     
+    text-align: center;
 }
 .appointmrnt_btn{
     background: var(--primary-color);
@@ -36,6 +43,7 @@
     border: none;
     color: black;
     transition: .4s;
+    margin-right: 2rem;
 }
 .contact_btn{
     background: none;
