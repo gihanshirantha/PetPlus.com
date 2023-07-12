@@ -9,7 +9,7 @@ const Aboutus = () => {
     <div>
       <Container>
         <Row>
-          <Col lg="6">
+          <Col lg="">
             <div className="about_design">
               <span class="dot">
                 

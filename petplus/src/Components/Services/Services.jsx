@@ -19,7 +19,9 @@ const Services = () => {
     <div>
       <div className="services">
         <Container>
+          <div className="subtitle">
           <Subtitle title={"Services"} />
+          </div>
           <div className="service_title">
             <h2>We provide the best services</h2>
             <p className="st_p">
@@ -73,7 +75,7 @@ const Services = () => {
                     <div className="card">
                       <div className="image_content">
                         <div className="card-image">
-                          <img src={P2} alt="" className="card-img" />
+                          <img src={P3} alt="" className="card-img" />
                         </div>
                         <div className="card-content">
                           <h2>Daycare</h2>
@@ -98,7 +100,7 @@ const Services = () => {
                     <div className="card">
                       <div className="image_content">
                         <div className="card-image">
-                          <img src={P3} alt="" className="card-img" />
+                          <img src={P2} alt="" className="card-img" />
                         </div>
                         <div className="card-content">
                           <h2>Grooming</h2>
