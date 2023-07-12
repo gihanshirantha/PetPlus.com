@@ -12,7 +12,7 @@
 }
 
 .services {
-  background: rgb(240, 240, 240);
+  background-image: url('../../assets/image/Cards/Background.png');
   padding-top: 3rem;
   padding-bottom: 3rem;
 }
