@@ -8,7 +8,7 @@ const Hero = () => {
     <div className="hero">
         <Container>
             <Row>
-                <Col lg='7'>
+                <Col lg='12'>
                     <div className="hero_title">
                         <h1><span>Caring</span> for Pets, <span>Creating</span> Smiles</h1>
                         <p>PetPlus Pet Care Center is a comprehensive facility dedicated to providing exceptional care for pets. Our center offers a range of services to ensure the health, happiness, and well-being of furry companions. With a team of highly skilled and compassionate professionals, we strive to create a comfortable and safe environment for pets and their owners.</p>
@@ -19,9 +19,7 @@ const Hero = () => {
 
                     </div>
                 </Col>
-                <Col lg='5' className='mt-5'>
-                   <img src={Heroimg} alt="" width={720}/>
-                </Col>
+
 
 
             </Row>
