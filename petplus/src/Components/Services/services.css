@@ -75,7 +75,9 @@ margin-top: 10px;
     color: var(--primary-color) ;
     font-weight: 700;
     margin-bottom: 10px;
+    transition: .3s;
 }
 .card-content button:hover{
-    
+    color: var(--secondary-color);
 }
+
