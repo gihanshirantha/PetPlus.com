@@ -134,4 +134,6 @@
   font-weight: 700;
   background: var(--primary-color);
   border: none;
+  border-radius: 7px;
+
 }

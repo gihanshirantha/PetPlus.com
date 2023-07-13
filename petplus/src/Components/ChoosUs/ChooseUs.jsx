@@ -3,18 +3,17 @@ import { Container, Row, Col } from "react-bootstrap";
 import Subtitle from "../SubTitle/Subtitle";
 import './chooseus.css'
 
-import Choose01 from '../../assets/image/Choose01.jpg'
 
 const ChooseUs = () => {
   return (
-    <div>
+    <div className="CU-container">
       <Container>
         <Row>
           <Col lg="6">
             <div className="CU_title">
               <Subtitle title={"Why Choose US"} />
-              <h1>We Are Petsy Best Pet Care Center</h1>
-              <p>
+              <h1>We Are Petsy Best Pet<br/> Care Center</h1>
+              <p className="CU_title-p">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Voluptas sunt totam dolorem molestiae asperiores facilis
                 explicabo incidunt mollitia, accusantium laboriosam.
@@ -47,6 +46,7 @@ const ChooseUs = () => {
                   </p>
                 </Col>
               </Row>
+              <button>Book Now</button>
             </div>
           </Col>
           <Col lg="6">
