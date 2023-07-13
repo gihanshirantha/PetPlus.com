@@ -1,0 +1,42 @@
+.Choose01{
+    width: 274px;
+    height: 183px;
+    flex-shrink: 0;
+border-radius: 50px;
+background: url('../../assets/image/Choose01.jpg');
+background-size: cover;
+box-shadow: 0px 0px 29px 0px rgba(0, 0, 0, 0.22);
+}
+
+.choose-041{
+    background: url('../../assets/image/Choose02.jpg'), lightgray 0px -44.576px / 152% 138.166% no-repeat;
+    border-radius: 50px;
+    box-shadow: 0px 0px 29px 0px rgba(0, 0, 0, 0.22);
+    width: 274px;
+    height: 183px;
+    flex-shrink: 0;
+    background-size: cover;
+    
+}
+.choose-021{
+    width: 439px;
+    height: 252px;
+    border-radius: 50px;
+    box-shadow: 0px 0px 29px 0px rgba(0, 0, 0, 0.22);
+    background: url('../../assets/image/Choose04.jpg'), lightgray 0px -6.5px / 103.872% 120.635% no-repeat;
+    flex-shrink: 0;
+    background-size: cover;
+    background-position: 20%;
+}
+
+.choose-031{
+    width: 180px;
+    height: 252px;
+    border-radius: 50px;
+    box-shadow: 0px 0px 29px 0px rgba(0, 0, 0, 0.32);
+    background: url('../../assets/image/Choose03.jpg'), lightgray 50% / cover no-repeat;
+    flex-shrink: 0;
+    background-size: cover;
+    background-position: 40%;
+
+}
