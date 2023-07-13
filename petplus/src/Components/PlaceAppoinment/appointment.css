@@ -1,0 +1,67 @@
+.PA_backgroun {
+  background-image: url("../../assets/image/bc-img02.jpg");
+  width: 100%;
+  height: 491px;
+  flex-shrink: 0;
+  background-repeat: no-repeat;
+
+  background-size: cover;
+}
+
+.PA-box {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  min-height: min-content;
+  max-height: max-content;
+  flex-shrink: 0;
+  border-radius: 30px;
+  background: rgba(46, 196, 182, 0.57);
+  backdrop-filter: blur(9.5px);
+  padding: 1.5rem;
+  position: relative;
+  bottom: 7rem;
+}
+
+.PA-times {
+  margin-top: 2rem;
+}
+.PA_Content input {
+  background: #fff;
+  border-radius: 10px;
+  border: none;
+  margin-top: 1rem;
+}
+
+.PA_Content textarea {
+  background: #fff;
+  border-radius: 10px;
+  border: none;
+  margin-top: 1rem;
+}
+
+.PA_Content button {
+  background: #fff;
+  border-radius: 10px;
+  border: none;
+  margin-top: 1rem;
+  padding: 1rem 2.5rem;
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-left: 10rem;
+}
+
+.PAT-icon {
+  background: black;
+  color: #fff;
+  border-radius: 50%;
+  padding: 0.4rem 0.65rem;
+  margin-right: 1rem;
+}
+
+.PA-form {
+  margin-top: 1rem;
+}
+.PA-onetime p {
+  margin-left: 1rem;
+}
