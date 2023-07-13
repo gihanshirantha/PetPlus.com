@@ -48,7 +48,7 @@
 .contact_btn{
     background: none;
     font-weight: 500;
-    border: 2px solid white;
+    border: none;
     transition: .4s;
 
 }
@@ -58,5 +58,5 @@
 }
 .contact_btn:hover{
     background: var(--secondary-color) !important;
-    border:2px solid black;
+    border: none;
 }

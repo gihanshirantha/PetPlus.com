@@ -19,7 +19,7 @@ const Services = () => {
     <div>
       <div className="services">
         <Container>
-          <div className="subtitle">
+          <div className="S_subtitle">
           <Subtitle title={"Services"} />
           </div>
           <div className="service_title">
