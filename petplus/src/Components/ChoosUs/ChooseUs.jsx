@@ -49,7 +49,7 @@ const ChooseUs = () => {
               <button>Book Now</button>
             </div>
           </Col>
-          <Col lg="6">
+          <Col lg="6 mt-4">
             <div className="CUP-1 d-flex gap-4">
             <div className="Choose01" />
            <div className="choose-041" />
