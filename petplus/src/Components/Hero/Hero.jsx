@@ -1,7 +1,7 @@
 import React from 'react'
 import './hero.css'
 import {Container,Row,Col,Button} from 'react-bootstrap'
-import Heroimg from '../../assets/image/hero-img.png'
+
 
 const Hero = () => {
   return (

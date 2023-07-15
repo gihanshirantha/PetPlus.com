@@ -49,6 +49,7 @@
   font-size: 1.3rem;
   font-weight: 700;
   margin-left: 10rem;
+  transition: .3s;
 }
 
 .PAT-icon {
@@ -64,4 +65,8 @@
 }
 .PA-onetime p {
   margin-left: 1rem;
+}
+.PA_Content button:hover{
+  background:var(--primary-color);
+  color: #fff;
 }
