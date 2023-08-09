@@ -1,8 +1,30 @@
-import React from "react";
+import React,{useState} from "react";
 import "./appointment.css";
 import { Container, Row, Col } from "react-bootstrap";
 
-const appointment = () => {
+const Appointment = () => {
+  const [formData, setFormData] = useState({
+    name: '',
+    email: '',
+    phoneNumber: '',
+    plan: '',
+    date: '',
+    time: '',
+    textmassage: '',
+  });
+
+  const handleInputChange = (event) => {
+    const { name, value } = event.target;
+    setFormData((prevData) => ({
+      ...prevData,
+      [name]: value,
+    }));
+  };
+
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    console.log('Form data submitted:', formData);
+  };
   return (
     <div>
       <div className="PA_backgroun"></div>
@@ -41,20 +63,26 @@ const appointment = () => {
               <Col lg="6">
                 <div className="PA-form">
                   <h3>Get An Appoinment</h3>
-                  <form>
+                  <form onSubmit={handleSubmit}>
                     <div class="row">
                       <div class="col">
                         <input
                           type="text"
+                          name="name"
+                          id="name"
                           class="form-control"
                           placeholder="Name"
+                           onChange={handleInputChange}
                         />
                       </div>
                       <div class="col">
                         <input
                           type="email"
                           class="form-control"
+                          name="email"
+                          id="email"
                           placeholder="Email"
+                           onChange={handleInputChange}
                         />
                       </div>
                     </div>
@@ -62,15 +90,21 @@ const appointment = () => {
                       <div class="col">
                         <input
                           type="number"
+                          name="phoneNumber"
+                          id="phoneNumber"
                           class="form-control"
                           placeholder="Phone Number"
+                           onChange={handleInputChange}
                         />
                       </div>
                       <div class="col">
                         <input
                           type="text"
                           class="form-control"
+                          name="plan"
+                          id="plan"
                           placeholder="Pet Care Plan"
+                           onChange={handleInputChange}
                         />
                       </div>
                     </div>
@@ -78,15 +112,21 @@ const appointment = () => {
                       <div class="col">
                         <input
                           type="date"
+                          name="date"
+                          id="date"
                           class="form-control"
-                          placeholder="Date"
+                          placeholderText="Date"
+                           onChange={handleInputChange}
                         />
                       </div>
                       <div class="col">
                         <input
                           type="time"
+                          name="time"
+                          id="time"
                           class="form-control"
-                          placeholder="Time"
+                          placeholderText="Time"
+                           onChange={handleInputChange}
                         />
                       </div>
                     </div>
@@ -94,12 +134,15 @@ const appointment = () => {
                       <div>
                         <textarea
                           rows="4"
+                          name="textmassage"
+                          id="textmassage"
                           class="form-control"
                           placeholder="Text Your Massage"
+                           onChange={handleInputChange}
                         />
                       </div>
                     </div>
-                    <button>Get Appointment</button>
+                    <button type="submit">Get Appointment</button>
                   </form>
                 </div>
               </Col>
@@ -111,4 +154,4 @@ const appointment = () => {
   );
 };
 
-export default appointment;
+export default Appointment;
