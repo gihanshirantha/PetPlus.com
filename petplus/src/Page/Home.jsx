@@ -6,6 +6,7 @@ import Services from '../Components/OurServices/Services'
 import ChooseUs from '../Components/ChoosUs/ChooseUs'
 import Appointment from '../Components/PlaceAppoinment/appointment'
 import Team from '../Components/Team/Team'
+import Pricing from '../Components/Pricing/Pricing'
 
 const Home = () => {
   return (
@@ -17,6 +18,7 @@ const Home = () => {
         <ChooseUs/>
         <Appointment/>
         <Team/>
+        <Pricing/>
     </div>
   )
 }

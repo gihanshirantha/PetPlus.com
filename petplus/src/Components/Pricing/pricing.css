@@ -1,0 +1,63 @@
+.pricing-bg{
+    background-image: url('../../assets/image/bg-img03.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.pricing-cards .Card{
+    margin-top: 2rem;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.pricing-cards .title{
+    background: var(--primary-color);
+    color: white;
+    border-radius: 15px 15px 0 0;
+    text-align: center;
+    font-size: medium;
+    padding: 1rem;
+    
+}
+
+.pricingTable{
+    padding: 0 4rem 2rem 3rem ;
+    
+}
+.value-bg{
+    font-size: 2rem;
+    font-weight: 800;
+    
+}
+.pricingTable ul{
+    list-style-type: none;
+    margin-left: -2rem;
+}
+
+.pricingTable i{
+    margin-right: 1rem;
+}
+.pricing-btn{
+    background: var(--primary-color);
+    font-weight: 500;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 15px;
+    color: black;
+    transition: .4s;
+   
+}
+.pricing-btn:hover{
+    background: var(--secondary-color) !important;
+
+}
+
+.fa-check-double{
+    color:var(--primary-color);
+}
+
+.fa-xmark{
+    color: var(--secondary-color);
+}
