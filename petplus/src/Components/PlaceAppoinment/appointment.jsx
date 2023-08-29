@@ -1,16 +1,16 @@
-import React,{useState} from "react";
+import React, { useState } from "react";
 import "./appointment.css";
 import { Container, Row, Col } from "react-bootstrap";
 
 const Appointment = () => {
   const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    phoneNumber: '',
-    plan: '',
-    date: '',
-    time: '',
-    textmassage: '',
+    name: "",
+    email: "",
+    phoneNumber: "",
+    plan: "",
+    date: "",
+    time: "",
+    textmassage: "",
   });
 
   const handleInputChange = (event) => {
@@ -23,13 +23,12 @@ const Appointment = () => {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    console.log('Form data submitted:', formData);
+    console.log("Form data submitted:", formData);
   };
   return (
     <div>
       <div className="PA_backgroun"></div>
-      <div className="PA_Content" data-aos="fade-up"
-     data-aos-duration="1000">
+      <div className="PA_Content" data-aos="fade-up" data-aos-duration="1000">
         <Container>
           <div className="PA-box">
             <Row>
@@ -73,7 +72,7 @@ const Appointment = () => {
                           id="name"
                           class="form-control"
                           placeholder="Name"
-                           onChange={handleInputChange}
+                          onChange={handleInputChange}
                         />
                       </div>
                       <div class="col">
@@ -83,7 +82,7 @@ const Appointment = () => {
                           name="email"
                           id="email"
                           placeholder="Email"
-                           onChange={handleInputChange}
+                          onChange={handleInputChange}
                         />
                       </div>
                     </div>
@@ -95,7 +94,7 @@ const Appointment = () => {
                           id="phoneNumber"
                           class="form-control"
                           placeholder="Phone Number"
-                           onChange={handleInputChange}
+                          onChange={handleInputChange}
                         />
                       </div>
                       <div class="col">
@@ -105,7 +104,7 @@ const Appointment = () => {
                           name="plan"
                           id="plan"
                           placeholder="Pet Care Plan"
-                           onChange={handleInputChange}
+                          onChange={handleInputChange}
                         />
                       </div>
                     </div>
@@ -117,7 +116,7 @@ const Appointment = () => {
                           id="date"
                           class="form-control"
                           placeholderText="Date"
-                           onChange={handleInputChange}
+                          onChange={handleInputChange}
                         />
                       </div>
                       <div class="col">
@@ -127,7 +126,7 @@ const Appointment = () => {
                           id="time"
                           class="form-control"
                           placeholderText="Time"
-                           onChange={handleInputChange}
+                          onChange={handleInputChange}
                         />
                       </div>
                     </div>
@@ -139,7 +138,7 @@ const Appointment = () => {
                           id="textmassage"
                           class="form-control"
                           placeholder="Text Your Massage"
-                           onChange={handleInputChange}
+                          onChange={handleInputChange}
                         />
                       </div>
                     </div>

@@ -20,17 +20,23 @@ const Services = () => {
       <div className="services">
         <Container>
           <div className="S_subtitle">
-          <Subtitle title={"Services"} />
+            <Subtitle title={"Services"} />
           </div>
           <div className="service_title">
-            <h2 data-aos="fade-up" data-aos-duration="1000">We provide the best services</h2>
+            <h2 data-aos="fade-up" data-aos-duration="1000">
+              We provide the best services
+            </h2>
             <p className="st_p" data-aos="fade-up" data-aos-duration="1000">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit.
               Voluptatibus pariatur inventore, voluptate reprehenderit odio
               error architecto sit dignissimos
             </p>
           </div>
-          <div className="service_body" data-aos="fade-up" data-aos-duration="1000">
+          <div
+            className="service_body"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+          >
             <Swiper
               modules={[Autoplay]}
               autoplay={{

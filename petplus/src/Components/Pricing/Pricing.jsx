@@ -22,10 +22,9 @@ function Pricing() {
         </div>
         <div className="pricing-cards">
           <div class=" d-flex">
-            <div class="Card" data-aos="fade-up"
-     data-aos-duration="2000">
+            <div class="Card" data-aos="fade-up" data-aos-duration="2000">
               <h3 class="title">Basic Plan</h3>
-              <div class="pricingTable " >
+              <div class="pricingTable ">
                 <p class="price-value">
                   <span class="value-bg">$ 25</span>/per Visit
                 </p>
@@ -54,8 +53,7 @@ function Pricing() {
                 <button className="pricing-btn">Choose Plan</button>
               </div>
             </div>
-            <div class="Card" data-aos="fade-up"
-     data-aos-duration="1000">
+            <div class="Card" data-aos="fade-up" data-aos-duration="1000">
               <h3 class="title-standard">Standard Plan</h3>
               <div class="pricingTable ">
                 <p class="price-value">
@@ -86,8 +84,7 @@ function Pricing() {
                 <button className="pricing-btn">Choose Plan</button>
               </div>
             </div>
-            <div class="Card" data-aos="fade-up"
-     data-aos-duration="2000">
+            <div class="Card" data-aos="fade-up" data-aos-duration="2000">
               <h3 class="title">Primium Plan</h3>
               <div class="pricingTable ">
                 <p class="price-value">
