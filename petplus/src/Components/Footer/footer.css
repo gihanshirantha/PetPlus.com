@@ -1,0 +1,44 @@
+
+.footer-section{
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.footer-section .logo img{
+    width: 7rem;
+}
+
+td i{
+    color: var(--secondary-color);
+    margin-right: 1rem;
+}
+td{
+    line-height: 2rem;
+}
+th{
+    color: var(--secondary-color);
+}
+
+.footer-section a{
+    color: black;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.follow-section{
+    background-color: var(--primary-color);
+    padding: .4rem;
+    
+    
+    
+}
+
+.follow-section .f-items{
+    align-items: center;
+}
+
+.f-items i{
+    font-size: 1.5rem;
+    
+    margin-left: 1rem;
+}
