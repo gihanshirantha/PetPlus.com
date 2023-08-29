@@ -1,6 +1,7 @@
 import React from "react";
 import Subtitle from "../SubTitle/Subtitle";
 import { Container } from "react-bootstrap";
+import './team.css'
 
 import P1 from "../../assets/image/Team/alex.png";
 import P2 from "../../assets/image/Team/emili.png";
@@ -15,7 +16,7 @@ import "swiper/css/autoplay";
 
 function Team() {
   return (
-    <div>
+    <div className="ourTeam-bg">
       <Container>
         <div className="S_subtitle">
           <Subtitle title={"Our Team"} />
