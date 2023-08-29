@@ -23,7 +23,7 @@ function Testimonilals() {
         </div>
         <section>
             
-                <div class="row d-flex justify-content-center">
+                <div class="row d-flex justify-content-center"  data-aos="fade-zoom-in"data-aos-duration="1000" >
                     <div class="col-md-4 style-3 ">
                         <div class="tour-item  ">
                             <div class="tour-desc bg-white tm-card">

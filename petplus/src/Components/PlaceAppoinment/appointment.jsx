@@ -28,7 +28,8 @@ const Appointment = () => {
   return (
     <div>
       <div className="PA_backgroun"></div>
-      <div className="PA_Content">
+      <div className="PA_Content" data-aos="fade-up"
+     data-aos-duration="1000">
         <Container>
           <div className="PA-box">
             <Row>
