@@ -40,6 +40,36 @@ function Pricing() {
                     <button className='pricing-btn'>Choose Plan</button>
                     </div>
 			</div> 
+            <div class="Card">
+            <h3 class="title-standard">Standard Plan</h3>
+				<div class="pricingTable ">
+				<p class="price-value"><span class="value-bg">$ 35</span>/per Visit</p>							
+                <hr></hr>
+					<ul class="pricing-content">
+						<li><i class="fa-sharp fa-solid fa-check-double"></i>Pet Grooming</li>
+						<li><i class="fa-sharp fa-solid fa-check-double"></i>Fitness Checkup</li>
+						<li><i class="fa-sharp fa-solid fa-check-double"></i>Hair and Nail Cut</li>
+						<li><i class="fa-sharp fa-solid fa-check-double"></i>Control Hair Falling</li>
+						<li><i class="fa-sharp fa-solid fa-xmark"></i>Vaccination Care</li>
+					</ul>
+                    <button className='pricing-btn'>Choose Plan</button>
+                    </div>
+			</div> 
+            <div class="Card">
+            <h3 class="title">Primium Plan</h3>
+				<div class="pricingTable ">
+				<p class="price-value"><span class="value-bg">$ 55</span>/per Visit</p>							
+                <hr></hr>
+					<ul class="pricing-content">
+						<li><i class="fa-sharp fa-solid fa-check-double"></i>Pet Grooming</li>
+						<li><i class="fa-sharp fa-solid fa-check-double"></i>Fitness Checkup</li>
+						<li><i class="fa-sharp fa-solid fa-check-double"></i>Hair and Nail Cut</li>
+						<li><i class="fa-sharp fa-solid fa-check-double"></i>Control Hair Falling</li>
+						<li><i class="fa-sharp fa-solid fa-check-double"></i>Vaccination Care</li>
+					</ul>
+                    <button className='pricing-btn'>Choose Plan</button>
+                    </div>
+			</div> 
 			
 
             </div>
