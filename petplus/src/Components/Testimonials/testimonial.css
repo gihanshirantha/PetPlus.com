@@ -1,0 +1,68 @@
+.testimonial-bc {
+  background-color: black;
+  padding-top: 3rem;
+  padding-bottom: 4rem;
+}
+
+.Testi-title {
+  color: white;
+  width: 40%;
+}
+.Testi-p {
+  color: white;
+  
+}
+.home-testimonial {
+  background-color: #231834;
+  height: 380px;
+}
+
+.home-testimonial h3 {
+  color: var(--orange);
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.testimonial-inner {
+  position: relative;
+  top: -174px;
+}
+.testimonial-pos {
+  position: relative;
+  top: 24px;
+}
+.testimonial-inner .tour-desc {
+  border-radius: 5px;
+  padding: 40px;
+}
+.color-grey-3 {
+  font-family: "Montserrat", Sans-serif;
+  font-size: 14px;
+  color: #6c83a2;
+}
+ img.tm-people {
+  width: 60px;
+  height: 60px;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  max-width: none;
+}
+.link-name {
+  font-family: "Montserrat", Sans-serif;
+  font-size: 14px;
+  color: #6c83a2;
+}
+.link-position {
+  font-family: "Montserrat", Sans-serif;
+  font-size: 12px;
+  color: #6c83a2;
+}
+
+.tm-card{
+    padding: 1rem;
+    margin-top: 2rem;
+    border: 3px solid var(--primary-color);
+}
